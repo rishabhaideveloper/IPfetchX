@@ -289,6 +289,43 @@
         padding: 8px 5px;
       }
     }
+
+    /* Simple Quantum Footer */
+.quantum-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(10, 10, 30, 0.7);
+  border-top: 1px solid var(--quantum-primary);
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-brand {
+  font-family: 'Audiowide', sans-serif;
+  color: var(--quantum-primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 8px rgba(0, 249, 255, 0.5);
+}
+
+.footer-copyright {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-powered {
+  color: var(--quantum-secondary);
+  font-size: 0.8rem;
+  font-style: italic;
+  text-shadow: 0 0 5px rgba(255, 0, 247, 0.3);
+}
   </style>
 </head>
 <body onload="initLoader()">
@@ -507,5 +544,12 @@ window.addEventListener('DOMContentLoaded', () => {
   initLoader();
 });
   </script>
+  <footer class="quantum-footer">
+  <div class="footer-content">
+    <div class="footer-brand">⚡ RISHABH's Quantum Tools ⚡</div>
+    <div class="footer-copyright">© 2025 IPfetchX Quantum Tracker</div>
+    <div class="footer-powered">Powered by Quantum Matrix</div>
+  </div>
+  </footer>
 </body>
 </html>
